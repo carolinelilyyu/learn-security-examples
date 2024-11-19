@@ -37,4 +37,4 @@ It's not checking the input. We're accepting inputs that should be plain strings
 The script could have code to delete everything on the server. They can inject any code they want.
 
 3. Briefly explain why **secure.ts** does not have the same vulnerabilties?
-`escapeHTML` will replace and sanitize input to prevent XSS attacks.
+`escapeHTML` will replace and sanitize input to prevent XSS attacks. This replaces any special characters with their string equivalence. 
